@@ -24,5 +24,6 @@ function onClickStart(e) {
 
 function onClickStop(e) {
   clearInterval(timerId);
+
   refs.start.removeAttribute('disabled');
 }
